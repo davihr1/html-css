@@ -1,0 +1,85 @@
+body {
+  font-weight: 400;
+  font-family: Lato,Helvetica, sans-serif;
+  font-size: 15px;
+  line-heigth: 2.5em;
+  color: #818181;
+  margin: 0;
+}
+
+header {
+  background-color: #f4511e;
+  color: white;
+}
+
+section, footer {
+  margin: 40px
+}
+
+h1 {
+  font-size: 63px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercaase;
+  color: #303030;
+  font-weigth: 600;
+}
+
+nav li a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav {
+  font-size: 12px;
+  letter-spacing: 4px;
+  heigth: 50px;
+  background-color: #f4f4f4;
+  padding-right: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  color: #303030;
+  padding:5px;
+}
+
+/* qual filho da linha eu quero estilizar (Par) */
+table tr:nth-child(even) {
+  background-color: #e9e9e9;
+}
+/* qual filho da linha eu quero estilizar (impar) */
+table tr:nth-child(odd) {
+  background-color: #bdbdbdbd;
+}
+
+table thead th {
+  background-color: #f4511e;
+  color: white;
+}
+
+#pacotes .figuras, #pacotes .videos {
+  text-align: center;
+}
+
+#pacotes .figuras figure {
+  display: inline-block;
+}
